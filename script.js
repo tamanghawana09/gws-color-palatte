@@ -23,17 +23,17 @@ const palettes = {
 
     1: {
 
-        background: "#FEE1F2",
+        background: "#F3DCDF",
 
-        surface: "#F15BB5",
+        surface: "#EEBDB9",
 
-        primary: "#B7094C",
+        primary: "#EDAAB4",
 
-        dark: "#300E1F",
+        dark: "#161616",
 
-        luxury: "#6A0136",
+        luxury: "#EEA9BD",
 
-        soft: "#FEE1F2"
+        soft: "#F5F5F5"
     },
 
 
