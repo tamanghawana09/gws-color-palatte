@@ -23,17 +23,17 @@ const palettes = {
 
     1: {
 
-        background: "#F8D6D8",
+        background: "#FEE1F2",
 
-        surface: "#F8A3A7",
+        surface: "#F15BB5",
 
-        primary: "#EA3D46",
+        primary: "#B7094C",
 
-        dark: "#3A2B2F",
+        dark: "#300E1F",
 
-        luxury: "#F8A3A7",
+        luxury: "#6A0136",
 
-        soft: "#F8D6D8"
+        soft: "#FEE1F2"
     },
 
 
@@ -45,17 +45,17 @@ const palettes = {
 
     2: {
 
-        background: "#FAEBD7",
+        background: "#F5F5F4",
 
-        surface: "#FFDAB9",
+        surface: "#FEFAEB",
 
-        primary: "#FF6F61",
+        primary: "#FEF0EB",
 
-        dark: "#8B4513",
+        dark: "#DEF7EA",
 
-        luxury: "#FFB347",
+        luxury: "#FDE4DB",
 
-        soft: "#FAEBD7"
+        soft: "#F5F5F4"
     },
 
 
@@ -67,17 +67,17 @@ const palettes = {
 
     3: {
 
-        background: "#F9E6E6",
+        background: "#FEF2EB",
 
-        surface: "#F2B2B2",
+        surface: "#F0E0D9",
 
-        primary: "#E8A8A8",
+        primary: "#C9A18E",
 
-        dark: "#B0A3A3",
+        dark: "#31221D",
 
-        luxury: "#E0D6D6",
+        luxury: "#714E48",
 
-        soft: "#F9E6E6"
+        soft: "#FEF2EB"
     },
 
 
@@ -89,17 +89,17 @@ const palettes = {
 
     4: {
 
-        background: "#F6E0D5",
+        background: "#FEEBF0",
 
-        surface: "#FFD1DC",
+        surface: "#F85E8A",
 
-        primary: "#FFDFD4",
+        primary: "#C20815",
 
-        dark: "#8B5B85",
+        dark: "#3B0D16",
 
-        luxury: "#CBAF8D",
+        luxury: "#710519",
 
-        soft: "#F6E0D5"
+        soft: "#FEEBF0"
     },
 
 
@@ -111,17 +111,17 @@ const palettes = {
 
     5: {
 
-        background: "#FFF8E1",
+        background: "#FAF4ED",
 
-        surface: "#FFDAB9",
+        surface: "#EED6C4",
 
-        primary: "#FF6F61",
+        primary: "#D7B89C",
 
-        dark: "#5D4037",
+        dark: "#4A3F35",
 
-        luxury: "#FFB74D",
+        luxury: "#A27B5C",
 
-        soft: "#FFF8E1"
+        soft: "#FAF4ED"
     },
 
 
@@ -133,17 +133,17 @@ const palettes = {
 
     6: {
 
-        background: "#FFF9F1",
+        background: "#FEEEEB",
 
-        surface: "#E3B0A6",
+        surface: "#F4E2DF",
 
-        primary: "#F1C6A6",
+        primary: "#CE9A93",
 
-        dark: "#8A735B",
+        dark: "#392120",
 
-        luxury: "#D6C3A6",
+        luxury: "#794A4D",
 
-        soft: "#FFF9F1"
+        soft: "#FEEEEB"
     },
 
 
@@ -155,17 +155,17 @@ const palettes = {
 
     7: {
 
-        background: "#FFFFFF",
+        background: "#FEDDE4",
 
-        surface: "#E4B8A0",
+        surface: "#FCBFC7",
 
-        primary: "#D69A73",
+        primary: "#CF798E",
 
-        dark: "#3D2B2F",
+        dark: "#2B1523",
 
-        luxury: "#F8D3B5",
+        luxury: "#6A374B",
 
-        soft: "#FFFFFF"
+        soft: "#FEDDE4"
     },
 
 
@@ -177,17 +177,49 @@ const palettes = {
 
     8: {
 
-        background: "#111827",
+        background: "#FEDDE4",
 
-        surface: "#A855F7",
+        surface: "#FCBFC7",
 
-        primary: "#EC4899",
+        primary: "#CF798E",
 
-        dark: "#050816",
+        dark: "#2B1523",
 
-        luxury: "#F97316",
+        luxury: "#6A374B",
 
-        soft: "#111827"
+        soft: "#FEDDE4"
+    },
+
+
+    9: {
+
+        background: "#FEF6EB",
+
+        surface: "#FEF5EB",
+
+        primary: "#FDDCC8",
+
+        dark: "#4D3839",
+
+        luxury: "#E79D74",
+
+        soft: "#FEF6EB"
+    },
+
+
+    10: {
+
+        background: "#FEEADF",
+
+        surface: "#FCBFAF",
+
+        primary: "#CE5C85",
+
+        dark: "#2A0229",
+
+        luxury: "#701C3D",
+
+        soft: "#FEEADF"
     }
 
 };
