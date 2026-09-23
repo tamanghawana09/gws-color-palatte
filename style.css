@@ -6,12 +6,12 @@
 
 :root {
 
-    --background: #FEEADF;
-    --surface: #FCBFAF;
-    --primary: #CE5C85;
-    --dark: #2A0229;
-    --luxury: #701C3D;
-    --soft: #FEEADF;
+    --background: #FFFFFF;
+    --surface: #EEBDB9;
+    --primary: #EDAAB4;
+    --dark: #161616;
+    --luxury: #EEA9BD;
+    --soft: #F5F5F5;
 
     --white: #FFFFFF;
 
@@ -39,7 +39,7 @@ html {
 
 
 body {
-    background: #dedede;
+    background: #FFFFFF;
     color: var(--dark);
 
     font-family: var(--body-font);

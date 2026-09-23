@@ -23,9 +23,9 @@ const palettes = {
 
     1: {
 
-        background: "#F3DCDF",
+        background: "#FFFFFF",
 
-        surface: "#EEBDB9",
+        surface: "#FFFFFF",
 
         primary: "#EDAAB4",
 
@@ -193,17 +193,17 @@ const palettes = {
 
     9: {
 
-        background: "#FEF3EB",
+        background: "#FFFFFF",
 
-        surface: "#FBC2A0",
+        surface: "#F3DCDF",
 
-        primary: "#EB6B2D",
+        primary: "#EDAAB4",
 
-        dark: "#201D22",
+        dark: "#161616",
 
-        luxury: "#43403B",
+        luxury: "#D6C7B6",
 
-        soft: "#FEF3EB"
+        soft: "#EEBDB9"
     },
 
 
@@ -220,6 +220,166 @@ const palettes = {
         luxury: "#701C3D",
 
         soft: "#FEEADF"
+    },
+
+
+    "color1-variation-1": {
+
+        background: "#FFFFFF",
+
+        surface: "#FFFFFF",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#EEA9BD",
+
+        soft: "#F5F5F5"
+    },
+
+
+    "color1-variation-2": {
+
+        background: "#F5F5F5",
+
+        surface: "#FFFFFF",
+
+        primary: "#EEA9BD",
+
+        dark: "#161616",
+
+        luxury: "#EDAAB4",
+
+        soft: "#FFFFFF"
+    },
+
+
+    "color1-variation-3": {
+
+        background: "#FFFFFF",
+
+        surface: "#F5F5F5",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#FFFFFF",
+
+        soft: "#EEA9BD"
+    },
+
+
+    "color1-variation-4": {
+
+        background: "#EEA9BD",
+
+        surface: "#FFFFFF",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#F5F5F5",
+
+        soft: "#FFFFFF"
+    },
+
+
+    "color1-variation-5": {
+
+        background: "#FFFFFF",
+
+        surface: "#EDAAB4",
+
+        primary: "#EEA9BD",
+
+        dark: "#161616",
+
+        luxury: "#FFFFFF",
+
+        soft: "#F5F5F5"
+    },
+
+
+    "color9-variation-1": {
+
+        background: "#FFFFFF",
+
+        surface: "#F3DCDF",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#D6C7B6",
+
+        soft: "#EEBDB9"
+    },
+
+
+    "color9-variation-2": {
+
+        background: "#F3DCDF",
+
+        surface: "#FFFFFF",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#EEBDB9",
+
+        soft: "#D6C7B6"
+    },
+
+
+    "color9-variation-3": {
+
+        background: "#FFFFFF",
+
+        surface: "#EEBDB9",
+
+        primary: "#D6C7B6",
+
+        dark: "#161616",
+
+        luxury: "#EDAAB4",
+
+        soft: "#F3DCDF"
+    },
+
+
+    "color9-variation-4": {
+
+        background: "#D6C7B6",
+
+        surface: "#FFFFFF",
+
+        primary: "#EDAAB4",
+
+        dark: "#161616",
+
+        luxury: "#F3DCDF",
+
+        soft: "#EEBDB9"
+    },
+
+
+    "color9-variation-5": {
+
+        background: "#F3DCDF",
+
+        surface: "#D6C7B6",
+
+        primary: "#EEBDB9",
+
+        dark: "#161616",
+
+        luxury: "#EDAAB4",
+
+        soft: "#FFFFFF"
     }
 
 };
@@ -308,7 +468,7 @@ const colourConfig = {
 
 
 
-let activePalette = 5;
+let activePalette = 1;
 
 
 
@@ -408,7 +568,14 @@ function applyPalette(number) {
 
         ([name, value]) => {
 
-            updateColour(name, value);
+            updateColour(
+                name,
+                name === "background"
+                    ? "#FFFFFF"
+                    : name === "primary"
+                        ? "#EDAAB4"
+                        : value
+            );
 
         }
 
@@ -778,8 +945,8 @@ function showCopyMessage() {
 /* ===================================================
    INITIAL LOAD
 
-   Start with Colour 5
+    Start with Colour 1
 =================================================== */
 
 
-applyPalette(5);
+applyPalette(1);
