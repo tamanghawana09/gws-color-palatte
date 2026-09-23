@@ -89,17 +89,17 @@ const palettes = {
 
     4: {
 
-        background: "#FEEBF0",
+        background: "#FFF0F5",
 
-        surface: "#F85E8A",
+        surface: "#FFD1DC",
 
-        primary: "#C20815",
+        primary: "#D885A3",
 
-        dark: "#3B0D16",
+        dark: "#3A1A32",
 
-        luxury: "#710519",
+        luxury: "#7A3B5B",
 
-        soft: "#FEEBF0"
+        soft: "#FFF0F5"
     },
 
 
@@ -111,17 +111,17 @@ const palettes = {
 
     5: {
 
-        background: "#FAF4ED",
+        background: "#FEEBF7",
 
-        surface: "#EED6C4",
+        surface: "#FDC5DB",
 
-        primary: "#D7B89C",
+        primary: "#A04EA8",
 
-        dark: "#4A3F35",
+        dark: "#2C0340",
 
-        luxury: "#A27B5C",
+        luxury: "#4C0571",
 
-        soft: "#FAF4ED"
+        soft: "#FEEBF7"
     },
 
 
@@ -193,17 +193,17 @@ const palettes = {
 
     9: {
 
-        background: "#FEF6EB",
+        background: "#FEF3EB",
 
-        surface: "#FEF5EB",
+        surface: "#FBC2A0",
 
-        primary: "#FDDCC8",
+        primary: "#EB6B2D",
 
-        dark: "#4D3839",
+        dark: "#201D22",
 
-        luxury: "#E79D74",
+        luxury: "#43403B",
 
-        soft: "#FEF6EB"
+        soft: "#FEF3EB"
     },
 
 
