@@ -51,7 +51,7 @@ const palettes = {
 
         primary: "#FEF0EB",
 
-        dark: "#DEF7EA",
+        dark: "#000000",
 
         luxury: "#FDE4DB",
 
