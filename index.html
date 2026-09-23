@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Glow With Syabhi — Colour Studio</title>
+
+    <!-- Premium beauty / skincare typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- =========================================
+         LEFT COLOUR CONTROL PANEL
+    ========================================== -->
+
+    <aside class="control-panel">
+
+        <div class="control-top">
+
+            <span class="mini-label">GLOW WITH SYABHI</span>
+
+            <h1>Colour Studio</h1>
+
+            <p>
+                Compare premium skincare palettes against the same
+                website layout before choosing the final brand direction.
+            </p>
+
+        </div>
+
+
+        <!-- PALETTE PRESETS -->
+
+        <div class="palette-section">
+
+            <div class="panel-heading">
+                <span>PALETTE PRESETS</span>
+                <small>8 options</small>
+            </div>
+
+
+            <div class="palette-list">
+
+                <!-- COLOR 1 -->
+
+                <button class="palette-card" data-palette="1">
+
+                    <div class="palette-info">
+                        <strong>Colour 01</strong>
+                        <span>Navy Gold</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#1a1a2e"></i>
+                        <i style="background:#16213e"></i>
+                        <i style="background:#0f3460"></i>
+                        <i style="background:#efc07b"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 2 -->
+
+                <button class="palette-card" data-palette="2">
+
+                    <div class="palette-info">
+                        <strong>Colour 02</strong>
+                        <span>Vanilla Gold</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#FEF4D5"></i>
+                        <i style="background:#F1E49A"></i>
+                        <i style="background:#E6D17B"></i>
+                        <i style="background:#2c1810"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 3 -->
+
+                <button class="palette-card" data-palette="3">
+
+                    <div class="palette-info">
+                        <strong>Colour 03</strong>
+                        <span>Wine & Terracotta</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#722f37"></i>
+                        <i style="background:#8b1538"></i>
+                        <i style="background:#a0522d"></i>
+                        <i style="background:#f5f5dc"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 4 -->
+
+                <button class="palette-card" data-palette="4">
+
+                    <div class="palette-info">
+                        <strong>Colour 04</strong>
+                        <span>Rose Champagne</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#b76e79"></i>
+                        <i style="background:#e8b4b8"></i>
+                        <i style="background:#f7e7ce"></i>
+                        <i style="background:#ffffff"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 5 -->
+
+                <button class="palette-card active" data-palette="5">
+
+                    <div class="palette-info">
+                        <strong>Colour 05</strong>
+                        <span>Burgundy Nude</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#7E102C"></i>
+                        <i style="background:#E1D4C1"></i>
+                        <i style="background:#D7A9A8"></i>
+                        <i style="background:#58423F"></i>
+                        <i style="background:#E1D3CC"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 6 -->
+
+                <button class="palette-card" data-palette="6">
+
+                    <div class="palette-info">
+                        <strong>Colour 06</strong>
+                        <span>Soft Mauve</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#FFD1DC"></i>
+                        <i style="background:#CBAF8D"></i>
+                        <i style="background:#F6E0D5"></i>
+                        <i style="background:#FFDFD4"></i>
+                        <i style="background:#8B5B85"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 7 -->
+
+                <button class="palette-card" data-palette="7">
+
+                    <div class="palette-info">
+                        <strong>Colour 07</strong>
+                        <span>Modern Crimson</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#C92A3E"></i>
+                        <i style="background:#FDA4B2"></i>
+                        <i style="background:#1F2937"></i>
+                        <i style="background:#FEE2E2"></i>
+                    </div>
+
+                </button>
+
+
+                <!-- COLOR 8 -->
+
+                <button class="palette-card" data-palette="8">
+
+                    <div class="palette-info">
+                        <strong>Colour 08</strong>
+                        <span>Dusty Rose</span>
+                    </div>
+
+                    <div class="mini-swatches">
+                        <i style="background:#D98C98"></i>
+                        <i style="background:#F8F7F5"></i>
+                        <i style="background:#E7C2B1"></i>
+                        <i style="background:#8B2E4B"></i>
+                    </div>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ACTIVE COLOURS -->
+
+        <div class="editor-section">
+
+            <div class="panel-heading">
+                <span>EDIT ACTIVE PALETTE</span>
+            </div>
+
+
+            <div class="colour-editor">
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Background</label>
+                        <span>Main cream / white</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="backgroundPicker">
+                        <input type="text" id="backgroundHex">
+                    </div>
+
+                </div>
+
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Surface</label>
+                        <span>Cards & sections</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="surfacePicker">
+                        <input type="text" id="surfaceHex">
+                    </div>
+
+                </div>
+
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Primary</label>
+                        <span>Buttons & highlights</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="primaryPicker">
+                        <input type="text" id="primaryHex">
+                    </div>
+
+                </div>
+
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Dark</label>
+                        <span>Text & dark sections</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="darkPicker">
+                        <input type="text" id="darkHex">
+                    </div>
+
+                </div>
+
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Luxury Accent</label>
+                        <span>Small premium details</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="luxuryPicker">
+                        <input type="text" id="luxuryHex">
+                    </div>
+
+                </div>
+
+
+                <div class="colour-row">
+
+                    <div>
+                        <label>Soft Accent</label>
+                        <span>Warm supporting colour</span>
+                    </div>
+
+                    <div class="picker-group">
+                        <input type="color" id="softPicker">
+                        <input type="text" id="softHex">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CURRENT PALETTE -->
+
+        <div class="current-section">
+
+            <span class="mini-label">CURRENT COLOURS</span>
+
+            <div class="current-swatches">
+
+                <div id="swatchBackground"></div>
+                <div id="swatchSurface"></div>
+                <div id="swatchPrimary"></div>
+                <div id="swatchDark"></div>
+                <div id="swatchLuxury"></div>
+                <div id="swatchSoft"></div>
+
+            </div>
+
+        </div>
+
+
+        <button id="copyPalette" class="copy-button">
+            Copy Current Palette
+        </button>
+
+        <div id="copyMessage" class="copy-message">
+            Palette copied
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================================
+         WEBSITE PREVIEW
+    ========================================== -->
+
+    <main class="website-preview">
+
+
+        <!-- NAV -->
+
+        <header class="navbar">
+
+            <a class="logo" href="#">
+                Glow
+                <span>WITH SYABHI</span>
+            </a>
+
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Treatments</a>
+                <a href="#">About</a>
+                <a href="#">Skin Concerns</a>
+                <a href="#">Contact</a>
+            </nav>
+
+
+            <a class="nav-cta" href="#">
+                Book Consultation
+            </a>
+
+        </header>
+
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="section-kicker">
+                    PERSONALISED SKIN SOLUTIONS
+                </span>
+
+
+                <h2>
+                    Healthy skin.
+                    <em>Beautifully personal.</em>
+                </h2>
+
+
+                <p>
+                    Bespoke facial treatments designed around your skin,
+                    your concerns and the confidence you want to feel.
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a class="btn-primary" href="#">
+                        Explore Treatments
+                    </a>
+
+                    <a class="text-link" href="#">
+                        Discover Your Skin
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+
+                <div class="hero-features">
+
+                    <div>
+                        <strong>01</strong>
+                        <span>Personalised Care</span>
+                    </div>
+
+                    <div>
+                        <strong>02</strong>
+                        <span>Skin Focused</span>
+                    </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>Melbourne Based</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="hero-media">
+
+                <div class="hero-photo">
+
+                    <div class="photo-label">
+                        YOUR IMAGE
+                    </div>
+
+                </div>
+
+
+                <div class="hero-floating-card">
+
+                    <span>YOUR SKIN</span>
+
+                    <strong>
+                        Start with a personal consultation.
+                    </strong>
+
+                    <small>
+                        Treatment recommendations tailored to you.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MARQUEE -->
+
+        <div class="brand-strip">
+
+            <span>SKIN HEALTH</span>
+            <i></i>
+
+            <span>PERSONALISED CARE</span>
+            <i></i>
+
+            <span>CONFIDENCE</span>
+            <i></i>
+
+            <span>PREMIUM FACIALS</span>
+
+        </div>
+
+
+
+        <!-- INTRO -->
+
+        <section class="intro">
+
+            <span class="section-kicker">
+                OUR APPROACH
+            </span>
+
+            <h3>
+                Your skin deserves more than
+                <em>a one-size-fits-all facial.</em>
+            </h3>
+
+            <p>
+                Every appointment begins with understanding your skin.
+                Treatments are then tailored around what your skin
+                actually needs — not simply what is trending.
+            </p>
+
+        </section>
+
+
+
+        <!-- CONCERNS -->
+
+        <section class="concerns">
+
+            <div class="section-top">
+
+                <div>
+
+                    <span class="section-kicker">
+                        YOUR SKIN
+                    </span>
+
+                    <h3>
+                        What would you like
+                        <em>to improve?</em>
+                    </h3>
+
+                </div>
+
+                <p>
+                    Choose a concern to discover treatments designed
+                    around your individual skin goals.
+                </p>
+
+            </div>
+
+
+            <div class="concern-grid">
+
+                <article>
+                    <span>01</span>
+                    <h4>Dry & Dehydrated</h4>
+                    <a href="#">Explore →</a>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h4>Acne & Congestion</h4>
+                    <a href="#">Explore →</a>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h4>Pigmentation</h4>
+                    <a href="#">Explore →</a>
+                </article>
+
+                <article>
+                    <span>04</span>
+                    <h4>Brightening</h4>
+                    <a href="#">Explore →</a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FEATURE -->
+
+        <section class="feature">
+
+            <div class="feature-photo">
+
+                <div class="vertical-copy">
+                    GLOW WITH SYABHI
+                </div>
+
+            </div>
+
+
+            <div class="feature-content">
+
+                <span class="light-kicker">
+                    PERSONALISED TREATMENTS
+                </span>
+
+
+                <h3>
+                    Skin care that starts
+                    <em>with your skin.</em>
+                </h3>
+
+
+                <p>
+                    We take the time to understand your concerns,
+                    lifestyle and goals before recommending treatment.
+                    Because beautiful results begin with the right plan.
+                </p>
+
+
+                <div class="feature-points">
+
+                    <span>
+                        <i>✓</i>
+                        Personal skin consultation
+                    </span>
+
+                    <span>
+                        <i>✓</i>
+                        Tailored treatment plans
+                    </span>
+
+                    <span>
+                        <i>✓</i>
+                        Professional skin guidance
+                    </span>
+
+                </div>
+
+
+                <a class="btn-luxury" href="#">
+                    About Glow With Syabhi
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- TREATMENTS -->
+
+        <section class="treatments">
+
+            <div class="section-top">
+
+                <div>
+
+                    <span class="section-kicker">
+                        SIGNATURE TREATMENTS
+                    </span>
+
+                    <h3>
+                        Treatments designed
+                        <em>for real skin.</em>
+                    </h3>
+
+                </div>
+
+                <a href="#" class="view-all">
+                    View all treatments →
+                </a>
+
+            </div>
+
+
+            <div class="treatment-grid">
+
+                <article class="treatment-card">
+
+                    <div class="treatment-image image-one">
+                        <span>01</span>
+                    </div>
+
+                    <div class="treatment-copy">
+
+                        <small>HYDRATION</small>
+
+                        <h4>
+                            Deep Hydration Facial
+                        </h4>
+
+                        <p>
+                            Replenish dry, tired and dehydrated skin
+                            with a treatment focused on moisture and comfort.
+                        </p>
+
+                        <a href="#">
+                            Discover Treatment →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="treatment-card">
+
+                    <div class="treatment-image image-two">
+                        <span>02</span>
+                    </div>
+
+                    <div class="treatment-copy">
+
+                        <small>RADIANCE</small>
+
+                        <h4>
+                            Hydra Glow Facial
+                        </h4>
+
+                        <p>
+                            Refresh dull skin while supporting hydration,
+                            luminosity and a smoother appearance.
+                        </p>
+
+                        <a href="#">
+                            Discover Treatment →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="treatment-card">
+
+                    <div class="treatment-image image-three">
+                        <span>03</span>
+                    </div>
+
+                    <div class="treatment-copy">
+
+                        <small>BRIGHTENING</small>
+
+                        <h4>
+                            Brightening Facial
+                        </h4>
+
+                        <p>
+                            Support a brighter, more even appearance
+                            while addressing tired and uneven-looking skin.
+                        </p>
+
+                        <a href="#">
+                            Discover Treatment →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- QUOTE -->
+
+        <section class="quote-section">
+
+            <span class="section-kicker">
+                THE EXPERIENCE
+            </span>
+
+            <div class="quote-mark">
+                “
+            </div>
+
+            <blockquote>
+                Good skincare isn't about doing more.
+                It's about understanding what your skin
+                actually needs.
+            </blockquote>
+
+            <span class="quote-name">
+                GLOW WITH SYABHI
+            </span>
+
+        </section>
+
+
+
+        <!-- CTA -->
+
+        <section class="final-cta">
+
+            <div>
+
+                <span>READY TO BEGIN?</span>
+
+                <h3>
+                    Start your
+                    <em>skin journey.</em>
+                </h3>
+
+            </div>
+
+            <a href="#" class="final-button">
+                Book Your Consultation
+            </a>
+
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div>
+
+                <div class="footer-logo">
+                    Glow
+                    <span>WITH SYABHI</span>
+                </div>
+
+                <p>
+                    Personalised skincare designed
+                    around you.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <span>EXPLORE</span>
+
+                <a href="#">Home</a>
+                <a href="#">Treatments</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <span>FOLLOW</span>
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
