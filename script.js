@@ -49,7 +49,7 @@ const palettes = {
 
         surface: "#FEFAEB",
 
-        primary: "#FEF0EB",
+        primary: "#DE4F1B",
 
         dark: "#000000",
 
