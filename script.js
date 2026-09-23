@@ -111,17 +111,17 @@ const palettes = {
 
     5: {
 
-        background: "#FEEBF7",
+        background: "#FEEBFA",
 
-        surface: "#FDC5DB",
+        surface: "#F7436F",
 
-        primary: "#A04EA8",
+        primary: "#B00AD4",
 
-        dark: "#2C0340",
+        dark: "#1F1934",
 
-        luxury: "#4C0571",
+        luxury: "#6B0EC0",
 
-        soft: "#FEEBF7"
+        soft: "#FEEBFA"
     },
 
 
